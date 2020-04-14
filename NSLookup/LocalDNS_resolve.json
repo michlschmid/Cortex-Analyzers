@@ -1,0 +1,17 @@
+{
+    "name": "LocalDNS_resolve",
+    "version": "1.0.0",
+    "author": "Michael Schmid",
+    "url": "https://github.com/TheHive-Project/Cortex-Analyzers",
+    "license": "AGPL-V3",
+    "description": "Request the local DNS server",
+    "dataTypeList": ["domain", "ip", "fqdn"],
+    "command": "LocalDNS/LocalDNS_resolve.py",
+    "baseConfig": "LocalDNS",
+    "config": {
+      "service": "get"
+    },
+    "configurationItems": [
+  
+    ]
+  }
