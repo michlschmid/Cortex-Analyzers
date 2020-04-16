@@ -1,13 +1,13 @@
 {
-    "name": "LocalDNS_resolve",
+    "name": "NSLookup_resolve",
     "version": "1.0.0",
     "author": "Michael Schmid",
     "url": "https://github.com/TheHive-Project/Cortex-Analyzers",
     "license": "AGPL-V3",
     "description": "Request the local DNS server",
     "dataTypeList": ["domain", "ip", "fqdn"],
-    "command": "LocalDNS/LocalDNS_resolve.py",
-    "baseConfig": "LocalDNS",
+    "command": "NSLookup/NSLookup_resolve.py",
+    "baseConfig": "NSLookup",
     "config": {
       "service": "get"
     },
